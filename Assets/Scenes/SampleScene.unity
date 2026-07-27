@@ -164,15 +164,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a9c0d104385756a4ebb5341f83f7a90d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a9c0d104385756a4ebb5341f83f7a90d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a9c0d104385756a4ebb5341f83f7a90d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 270
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a9c0d104385756a4ebb5341f83f7a90d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -224,7 +224,7 @@ MonoBehaviour:
   descripcion: "Emite ondas alfa que provocan dolor de cabeza a quienes est\xE1n
     cerca."
   imagen: {fileID: 0}
-  sonido: {fileID: 0}
+  sonido: {fileID: 8300000, guid: 4252d1f90b859f448bb44cf1af6f7cd0, type: 3}
   volumen: 1
 --- !u!65 &155892646
 BoxCollider:
@@ -454,7 +454,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 249603138}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &249603142
 Camera:
   m_ObjectHideFlags: 0
@@ -667,15 +667,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5b13372d216fb5344bc977c915267a05, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.1
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b13372d216fb5344bc977c915267a05, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.1
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b13372d216fb5344bc977c915267a05, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.1
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b13372d216fb5344bc977c915267a05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -699,15 +699,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b13372d216fb5344bc977c915267a05, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b13372d216fb5344bc977c915267a05, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b13372d216fb5344bc977c915267a05, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 270
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b13372d216fb5344bc977c915267a05, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -724,7 +724,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5b13372d216fb5344bc977c915267a05, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 406669318}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5b13372d216fb5344bc977c915267a05, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 406669317}
   m_SourcePrefab: {fileID: 100100000, guid: 5b13372d216fb5344bc977c915267a05, type: 3}
 --- !u!4 &346817560 stripped
 Transform:
@@ -773,15 +779,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 67d350e8b4271cf439f21f485e4b922c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 67d350e8b4271cf439f21f485e4b922c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 67d350e8b4271cf439f21f485e4b922c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 270
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 67d350e8b4271cf439f21f485e4b922c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -854,8 +860,53 @@ MonoBehaviour:
   descripcion: Su coeficiente intelectual supera los 5000 y recuerda todo lo que
     ha vivido.
   imagen: {fileID: 0}
-  sonido: {fileID: 0}
+  sonido: {fileID: 8300000, guid: 82066496dfe33f1489c12e3df6808e38, type: 3}
   volumen: 1
+--- !u!1 &406669316 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5b13372d216fb5344bc977c915267a05, type: 3}
+  m_PrefabInstance: {fileID: 346817559}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &406669317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406669316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdd60d97dcff0054596c904d3986a757, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombrePokemon: Frogadier
+  tipo: Agua
+  descripcion: Es debil unicamnete contra los ataques de tipo planta y Electrico.
+    Por el contrario resiste los movimientos de tipo acero. Agua, Fuego e hielo
+  imagen: {fileID: 0}
+  sonido: {fileID: 8300000, guid: e96accf85ecde1744bd4a1254c1d6129, type: 3}
+  volumen: 1
+--- !u!65 &406669318
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406669316}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.681874, y: 3.788207, z: 4.794344}
+  m_Center: {x: -0.01491383, y: 1.394103, z: -0.9184564}
 --- !u!1 &494178496
 GameObject:
   m_ObjectHideFlags: 0
@@ -984,7 +1035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 2
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -1055,13 +1106,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: abra_card
+  mTrackableName: abra
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Taller3.xml
-  mAspectRatio: 1.3905001
+  mDataSetPath: Vuforia/Pokedex.xml
+  mAspectRatio: 1.39082
   mImageTargetType: 0
   mWidth: 0.2
-  mHeight: 0.2781
+  mHeight: 0.278164
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -1116,8 +1167,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 503351427}
   mHiddenRoot: {fileID: 0}
-  mTargetName: abra_card
-  mDatasetName: Vuforia/Taller3.xml
+  mTargetName: abra
+  mDatasetName: Vuforia/Pokedex.xml
   mCastedBehaviour: {fileID: 503351427}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -1133,6 +1184,7 @@ GameObject:
   - component: {fileID: 516726537}
   - component: {fileID: 516726536}
   - component: {fileID: 516726539}
+  - component: {fileID: 516726540}
   m_Layer: 0
   m_Name: ImageTarget_Froakie
   m_TagString: Untagged
@@ -1152,7 +1204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 2
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -1180,10 +1232,34 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 516726539}
+        m_TargetAssemblyTypeName: Evolutions, Assembly-CSharp
+        m_MethodName: marcarCartaVisible
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 516726539}
+        m_TargetAssemblyTypeName: Evolutions, Assembly-CSharp
+        m_MethodName: marcarCartaNoVisible
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &516726537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1199,18 +1275,18 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 
+  mTrackableName: froakie
   mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 1
-  mImageTargetType: 3
+  mDataSetPath: Vuforia/Pokedex.xml
+  mAspectRatio: 1.397
+  mImageTargetType: 0
   mWidth: 0.2
-  mHeight: 0.2
+  mHeight: 0.2794
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 516726539}
+  mPreview: {fileID: 516726540}
 --- !u!4 &516726538
 Transform:
   m_ObjectHideFlags: 0
@@ -1237,13 +1313,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 516726534}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed97cf3b89a01094da6b56dec17e7b3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  evoluciones:
+  - {fileID: 1526550006}
+  - {fileID: 406669316}
+  cartaVisible: 1
+--- !u!114 &516726540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516726534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 516726537}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 
-  mDatasetName: 
+  mTargetName: froakie
+  mDatasetName: Vuforia/Pokedex.xml
   mCastedBehaviour: {fileID: 516726537}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -1351,15 +1443,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5116782a606f3c043861b458812e46a5, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.1
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5116782a606f3c043861b458812e46a5, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.1
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5116782a606f3c043861b458812e46a5, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.1
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5116782a606f3c043861b458812e46a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1383,15 +1475,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5116782a606f3c043861b458812e46a5, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5116782a606f3c043861b458812e46a5, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5116782a606f3c043861b458812e46a5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 270
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5116782a606f3c043861b458812e46a5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -1408,7 +1500,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5116782a606f3c043861b458812e46a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1526550008}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5116782a606f3c043861b458812e46a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1526550007}
   m_SourcePrefab: {fileID: 100100000, guid: 5116782a606f3c043861b458812e46a5, type: 3}
 --- !u!4 &765113647 stripped
 Transform:
@@ -1534,7 +1632,7 @@ MonoBehaviour:
   descripcion: "Duerme 18 horas al d\xEDa. Incluso dormido, se teletransporta si
     percibe peligro."
   imagen: {fileID: 0}
-  sonido: {fileID: 0}
+  sonido: {fileID: 8300000, guid: 863fb81e703c0224ba6196ddbb569ff5, type: 3}
   volumen: 1
 --- !u!65 &1005147930
 BoxCollider:
@@ -1592,8 +1690,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 563.73834, y: -65.755005}
-  m_SizeDelta: {x: 1047.4767, y: 0}
+  m_AnchoredPosition: {x: 1299.7513, y: -65.755005}
+  m_SizeDelta: {x: 2519.5027, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1007609266
 CanvasRenderer:
@@ -1861,8 +1959,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 563.73834, y: -182.44}
-  m_SizeDelta: {x: 1047.4767, y: 0}
+  m_AnchoredPosition: {x: 1299.7513, y: -182.44}
+  m_SizeDelta: {x: 2519.5027, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1149251985
 CanvasRenderer:
@@ -2150,6 +2248,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1526550006 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5116782a606f3c043861b458812e46a5, type: 3}
+  m_PrefabInstance: {fileID: 765113646}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1526550007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526550006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdd60d97dcff0054596c904d3986a757, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombrePokemon: Froakie
+  tipo: Agua
+  descripcion: 'Protege su piel cubriendo el cuerpo con una fina capa de burbujas.
+    Aunque parezca despreocupado no deja de vigilar con astucia lo que lo rodea '
+  imagen: {fileID: 0}
+  sonido: {fileID: 8300000, guid: b539cff0af2aa4e4892ec872986fc903, type: 3}
+  volumen: 1
+--- !u!65 &1526550008
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526550006}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.681874, y: 3.788207, z: 4.794344}
+  m_Center: {x: -0.01491383, y: 1.394103, z: -0.9184564}
 --- !u!1001 &1628895314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2192,15 +2335,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d3f5f8acdab65d74b883111523902cfb, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d3f5f8acdab65d74b883111523902cfb, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d3f5f8acdab65d74b883111523902cfb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 270
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d3f5f8acdab65d74b883111523902cfb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -2307,8 +2450,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 563.73834, y: -257.715}
-  m_SizeDelta: {x: 1047.4767, y: 0}
+  m_AnchoredPosition: {x: 1299.7513, y: -257.715}
+  m_SizeDelta: {x: 2519.5027, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2056542942
 MonoBehaviour:
